@@ -164,26 +164,20 @@ code, pre {
   text-decoration: underline;
 }
 
-.md-sidebar__cta {
-  padding: 1rem;
-  margin: 1rem;
-  background: #e0f2ff;
-  border-left: 4px solid #3a8ca6;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.md-sidebar__cta .cta-button {
-  display: inline-block;
-  padding: 0.6em 1em;
-  background-color: #3a8ca6;
+.cta-button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.75rem 1.25rem;
+  background-color: #2b88e8;
   color: white;
-  border-radius: 4px;
-  text-decoration: none;
+  text-align: center;
   font-weight: bold;
-  transition: background 0.2s ease-in-out;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
 }
 
-.md-sidebar__cta .cta-button:hover {
-  background-color: #276b82;
+.cta-button:hover {
+  background-color: #1664c0;
 }
