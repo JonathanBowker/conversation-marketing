@@ -165,16 +165,14 @@ code, pre {
 }
 
 .cta-button {
-  display: block;
-  margin: 1rem auto;
-  padding: 0.75rem 1.25rem;
+  display: inline-block;
   background-color: #2b88e8;
   color: white;
-  text-align: center;
-  font-weight: bold;
+  padding: 0.75rem 1.25rem;
   border-radius: 6px;
+  font-weight: bold;
   text-decoration: none;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   transition: background-color 0.3s ease;
 }
 
