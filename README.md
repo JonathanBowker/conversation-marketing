@@ -1,4 +1,4 @@
-# Introduction: The End of Marketing as a Monologue
+# Introduction: The New Rules of Conversation Marketing
 
 Marketing has always been about communication — but for decades, it resembled a loudspeaker rather than a conversation. Businesses shouted messages into the world through billboards, TV adverts, and mass emails, hoping something would stick. It was a one-way street, with brands talking *at* people instead of *with* them.
 
@@ -22,7 +22,9 @@ Despite the tools being readily available, many organisations are still stuck in
 
 This book exists to change that.
 
-*The New Rules of Conversation Marketing* is your guide to this new landscape. It will show you how to create human-centred, AI-supported marketing strategies that engage people in real-time, build loyalty, and drive business results.
+*The New Rules of Conversation Marketing* is your guide to this new landscape. It will show you how to create human-centred, **AI-optimised** marketing strategies that engage people in real time, build loyalty, and drive business results.
+
+Artificial intelligence is no longer a futuristic buzzword — it’s the engine powering modern customer interactions. From AI-generated insights that help you understand your audience, to real-time content delivery and smart automation, AI allows you to scale conversations without losing the human touch.
 
 ## What You’ll Learn
 
@@ -32,7 +34,7 @@ Over the following chapters, you’ll discover:
 * How to use AI to understand your audience and personalise communication at scale
 * How to choose the right channels, craft natural conversation flows, and deliver value with every message
 * How to measure success in ways that actually reflect customer impact
-* And how to future-proof your strategy in an age of fast-changing technology
+* And how to future-proof your strategy in an age of **AI-driven optimisation** and fast-changing technology
 
 ## Who This Book Is For
 
