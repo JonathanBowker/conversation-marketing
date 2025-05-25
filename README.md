@@ -26,6 +26,8 @@ This book exists to change that.
 
 Artificial intelligence is no longer a futuristic buzzword — it’s the engine powering modern customer interactions. From AI-generated insights that help you understand your audience, to real-time content delivery and smart automation, AI allows you to scale conversations without losing the human touch.
 
+At the same time, a new frontier of interaction has emerged: AI-powered answer engines and chatbots are quickly becoming the way people search, explore, and make decisions. These systems offer instant, curated responses — not lists of links — meaning brands must now optimise for visibility inside these AI-driven environments. This shift introduces fresh challenges: how do you maintain presence and relevance when the gatekeepers of information are no longer search engines but generative models that summarise and select on your behalf?
+
 ## What You’ll Learn
 
 Over the following chapters, you’ll discover:
