@@ -1,8 +1,8 @@
 /* Body Background Colour */
-body {
-  background-color: #ccd6d2;
+/* body {
+  background-color: #fff;
 ; /* soft lavender backdrop – adjust to match your brand */
-}
+/* } */
 
 
 /* Custom Header Gradient */
@@ -83,7 +83,7 @@ code, pre {
 
 /* GitHub Icon in Dark Mode */
 [data-md-color-scheme="slate"] .md-header__source a.md-source {
-  color: #ffffff !important;
+  color: #f2eee3 !important;
 }
 
 /* FontAwesome GitHub fallback (if needed) */
