@@ -164,3 +164,26 @@ code, pre {
   text-decoration: underline;
 }
 
+.md-sidebar__cta {
+  padding: 1rem;
+  margin: 1rem;
+  background: #e0f2ff;
+  border-left: 4px solid #3a8ca6;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.md-sidebar__cta .cta-button {
+  display: inline-block;
+  padding: 0.6em 1em;
+  background-color: #3a8ca6;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease-in-out;
+}
+
+.md-sidebar__cta .cta-button:hover {
+  background-color: #276b82;
+}
