@@ -1,17 +1,33 @@
-/* Custom Header Gradient */
-.md-header {
-  background: linear-gradient(90deg,
-    #2b0052 0%,
-    #360067 15%,
-    #450086 35%,
-    #5a00ad 55%,
-    #7200dc 75%,
-    #8200fa 100%);
+/* Body Background Colour */
+body {
+  background-color: #f2eee3;
+; /* soft lavender backdrop – adjust to match your brand */
 }
 
+
+/* Custom Header Gradient */
+/*.md-header {
+/*  background: linear-gradient(90deg,
+/*    #1b263b 0%,     /* Deep slate/navy start */
+/*    #2c3e50 30%,    /* Desaturated dark blue */
+/*    #678277 100%,    /* Teal-grey pivot */
+/*    #3a8ca6 85%,    /* Cool cyan blue */
+/*    #62b6cb 100%    /* Soft blue highlight */
+/*  );
+/*} */
+
+.md-header {
+  background: #68bac2;
+}
+
+.md-typeset a {
+    color: #678277;
+    word-break: break-word;
+}
 /* Link Styling */
 a {
-  color: #8200fa;
+  color: #678277;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -45,8 +61,8 @@ code, pre {
 .primary-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4a148c;
-  color: white;
+  background-color: #68bac2;
+  color: #f2eee3;
   text-decoration: none;
   border-radius: 5px;
   font-size: 16px;
@@ -62,7 +78,7 @@ code, pre {
 /* GitHub Icon: Always White & Visible */
 .md-header__source a.md-source {
   opacity: 1 !important;
-  color: #ffffff !important;
+  color: #f2eee3 !important;
 }
 
 /* GitHub Icon in Dark Mode */
@@ -72,13 +88,15 @@ code, pre {
 
 /* FontAwesome GitHub fallback (if needed) */
 .md-header-nav .md-nav__link[href*="github.com"] i.fab {
-  color: #ffffff !important;
+  color:  #f2eee3 !important;
 }
+
+
 
 /* Active nav link styling */
 .md-nav__link--active {
   font-weight: bold !important;
-  color: #450086 !important; /* Highlight color */
+  color: #91b4a7 !important; /* Highlight color */
   text-decoration: underline;
 }
 
@@ -86,7 +104,7 @@ code, pre {
 .md-nav__link:hover,
 .md-nav__link:focus {
   font-weight: bold !important;
-  color: #7200dc !important;  /* Your desired hover color */
+  color: #91b4a7 !important;  /* Your desired hover color */
   text-decoration: underline;
 }
 
@@ -119,3 +137,30 @@ code, pre {
     max-width: 100% !important;
     overflow-x: auto;
 }
+
+/* Footer  */
+.md-footer__col h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: var(--md-primary-fg-color);
+}
+
+.md-footer__col ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.md-footer__col ul li {
+  margin-bottom: 0.4rem;
+}
+
+.md-footer__col a {
+  color: var(--md-typeset-a-color);
+  text-decoration: none;
+}
+
+.md-footer__col a:hover {
+  text-decoration: underline;
+}
+
