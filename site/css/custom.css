@@ -1,0 +1,181 @@
+/* Body Background Colour */
+/* body {
+  background-color: #fff;
+; /* soft lavender backdrop – adjust to match your brand */
+/* } */
+
+
+/* Custom Header Gradient */
+/*.md-header {
+/*  background: linear-gradient(90deg,
+/*    #1b263b 0%,     /* Deep slate/navy start */
+/*    #2c3e50 30%,    /* Desaturated dark blue */
+/*    #678277 100%,    /* Teal-grey pivot */
+/*    #3a8ca6 85%,    /* Cool cyan blue */
+/*    #62b6cb 100%    /* Soft blue highlight */
+/*  );
+/*} */
+
+.md-header {
+  background: #68bac2;
+}
+
+.md-typeset a {
+    color: #678277;
+    word-break: break-word;
+}
+/* Link Styling */
+a {
+  color: #678277;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Typography Tweaks */
+h1 {
+  font-size: 2.5em;
+}
+
+/* Code Block Improvements */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+pre code.language-json {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+code, pre {
+  overflow-x: auto;
+}
+
+/* Primary Button Styling */
+.primary-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #68bac2;
+  color: #f2eee3;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #6a1b9a;
+}
+
+/* GitHub Icon: Always White & Visible */
+.md-header__source a.md-source {
+  opacity: 1 !important;
+  color: #ffffff !important;
+}
+
+/* GitHub Icon in Dark Mode */
+[data-md-color-scheme="slate"] .md-header__source a.md-source {
+  color: #f2eee3 !important;
+}
+
+/* FontAwesome GitHub fallback (if needed) */
+.md-header-nav .md-nav__link[href*="github.com"] i.fab {
+  color:  #f2eee3 !important;
+}
+
+
+
+/* Active nav link styling */
+.md-nav__link--active {
+  font-weight: bold !important;
+  color: #91b4a7 !important; /* Highlight color */
+  text-decoration: underline;
+}
+
+/* Force hover color on nav links */
+.md-nav__link:hover,
+.md-nav__link:focus {
+  font-weight: bold !important;
+  color: #91b4a7 !important;  /* Your desired hover color */
+  text-decoration: underline;
+}
+
+/* Standardise table width site-wide */
+.md-typeset table {
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  table-layout: fixed;
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+
+/* Ensure table cells wrap properly and look clean */
+.md-typeset table th,
+.md-typeset table td {
+  word-wrap: break-word;
+  word-break: break-word;
+  padding: 0.6em;
+  vertical-align: top;
+}
+
+/* Optional: make headers bold and improve spacing */
+.md-typeset table th {
+  font-weight: 600;
+  background-color: #f9f9f9;
+}
+
+.full-width {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto;
+}
+
+/* Footer  */
+.md-footer__col h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: var(--md-primary-fg-color);
+}
+
+.md-footer__col ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.md-footer__col ul li {
+  margin-bottom: 0.4rem;
+}
+
+.md-footer__col a {
+  color: var(--md-typeset-a-color);
+  text-decoration: none;
+}
+
+.md-footer__col a:hover {
+  text-decoration: underline;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #2b88e8;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #1664c0;
+}
