@@ -38,7 +38,7 @@ Over the following chapters, you’ll discover:
 * How to measure success in ways that actually reflect customer impact
 * And how to future-proof your strategy in an age of **AI-driven optimisation** and fast-changing technology
 
-## Who This Book Is For
+## Who This Handbook Is For
 
 This book is for marketers, business owners, customer experience leaders, and anyone who wants to build stronger relationships with their audience. Whether you're just getting started or looking to refine your existing strategy, you'll find practical advice, real-world examples, and frameworks you can apply straight away.
 
