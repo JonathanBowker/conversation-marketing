@@ -16,7 +16,7 @@ At its heart, conversation marketing is simple — it’s marketing that listens
 
 And it’s not just for tech giants or start-ups. From local shops to global enterprises, any business can adopt these new rules and see dramatic results. All it takes is a shift in mindset, the right tools, and a willingness to evolve.
 
-## Why This Book, and Why Now?
+## Why This Handbook, and Why Now?
 
 Despite the tools being readily available, many organisations are still stuck in the old ways. They push messages rather than start conversations. They focus on reach instead of relationships. And in doing so, they miss the opportunity to connect with customers in a far more personal and effective way.
 
