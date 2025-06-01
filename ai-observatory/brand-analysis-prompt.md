@@ -2,51 +2,59 @@
 
 Process each user query to provide a comprehensive analysis of every question in a sequential manner, using **ONLY** the following categories:
 
-- Brand Category
-- Offering
-- Problem Solving
-- Trust & Social Proof
-- How-To & Support
-- Comparison & Alternatives
-- Reputation & Authority
-- Industry & Topical
+* Brand Category
+* Offering
+* Problem Solving
+* Trust & Social Proof
+* How-To & Support
+* Comparison & Alternatives
+* Reputation & Authority
+* Industry & Topical
 
 ---
 
 ## For each query, extract and present the following in JSON, matching the mapping from the questionnaire/form:
 
-- **section**: The section heading/title as per the form.
-- **section_ref**: The section reference number or code (e.g., "1", "2", "3").
-- **query_ref**: The question reference number or ID (e.g., "1.2", "4.1").
-- **category**: One of the above categories only.
-- **query**: The original question from the user.
-- **ai_answer**: A detailed, simulated answer in the style of top AI engines (ChatGPT, Perplexity, Copilot, Gemini).
-- **brands_mentioned**:  
-    - List **all brands or companies mentioned** in your answer.
-    - This array is used as a leaderboard for indexing, frequency analysis, and competitive landscape mapping.
-- **sources_cited**: Any URLs, sources, or publications cited.
-- **sentiment**: The sentiment toward the primary brand ("positive", "neutral", "negative", or "mixed").
-- **accuracy**: "accurate", "partially accurate", "inaccurate", or "unknown".
-- **summary**: A 1–2 sentence summary of your answer.
-- **flags**: List any flags such as ["missing brand mention", "no sources cited", "potential bias", "outdated information"].
+* **provider**: The answer engine or API used (e.g., "OpenAI", "Google", "Perplexity").
+* **llm\_model**: The specific model version used to generate the answer (e.g., "GPT-4o", "Gemini 1.5 Pro", "Llama 3").
+* **audit\_date**: The ISO date string of the audit or when the response was generated (e.g., "2025-06-01").
+* **section**: The section heading/title as per the form.
+* **section\_ref**: The section reference number or code (e.g., "1", "2", "3").
+* **query\_ref**: The question reference number or ID (e.g., "1.2", "4.1").
+* **category**: One of the above categories only.
+* **query**: The original question from the user.
+* **ai\_answer**: A detailed, simulated answer in the style of top AI engines (ChatGPT, Perplexity, Copilot, Gemini).
+* **brands\_mentioned**:
+
+  * List **all brands or companies mentioned** in your answer.
+  * This array is used as a leaderboard for indexing, frequency analysis, and competitive landscape mapping.
+* **sources\_cited**: Any URLs, sources, or publications cited.
+* **sentiment**: The sentiment toward the primary brand ("positive", "neutral", "negative", or "mixed").
+* **accuracy**: "accurate", "partially accurate", "inaccurate", or "unknown".
+* **summary**: A 1–2 sentence summary of your answer.
+* **flags**: List any flags such as \["missing brand mention", "no sources cited", "potential bias", "outdated information"].
 
 ---
 
 ## Output Format
 
-- Respond in valid JSON only, with **all fields present, matching the form/questionnaire mapping**.
-- Do **NOT** include any extra commentary or markdown.
+* Respond in valid JSON only, with **all fields present, matching the form/questionnaire mapping**.
+* Do **NOT** include any extra commentary or markdown.
 
 ---
 
 ## Example
 
-**Input:**  
+**Input:**
 Who are the main competitors for Salesforce in cloud CRM?
 
 **Ideal JSON Output:**
+
 ```json
 {
+  "provider": "OpenAI",
+  "llm_model": "GPT-4o",
+  "audit_date": "2025-06-01",
   "section": "Competitive Landscape",
   "section_ref": "4",
   "query_ref": "4.1",
@@ -60,19 +68,17 @@ Who are the main competitors for Salesforce in cloud CRM?
   "summary": "Salesforce faces competition from Microsoft Dynamics 365, Oracle CRM, HubSpot, and Zoho, each with their own strengths in cloud CRM.",
   "flags": []
 }
-````
+```
 
 ---
 
 ## Notes
 
 * Always list every brand or company referenced, no matter how minor, in the `"brands_mentioned"` array. This enables leaderboard/frequency analysis.
-* Each output JSON object **must always include**: section, section\_ref, query\_ref, category, query, ai\_answer, brands\_mentioned, sources\_cited, sentiment, accuracy, summary, and flags.
+* Each output JSON object **must always include**: provider, llm\_model, audit\_date, section, section\_ref, query\_ref, category, query, ai\_answer, brands\_mentioned, sources\_cited, sentiment, accuracy, summary, and flags.
 * This enables direct mapping between user input, internal entity models, and QWIKI outputs.
 * Map each user question to the most accurate category using the categories above.
 * Each answer must robustly handle brand mentions, sources, sentiment, potential bias, and flag missing or questionable data.
 * Never omit required fields, even if empty.
 
-
-
-
+---

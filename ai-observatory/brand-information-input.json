@@ -1,6 +1,11 @@
 {
   "form_title": "AI Visibility Audit: Brand Information Questionnaire",
   "description": "This questionnaire gathers key details needed to assess your brand’s AI visibility and representation across answer engines like ChatGPT, Perplexity, Copilot, Google AI Overview, and Gemini. Each field maps directly to an internal QWIKI entity.",
+  "audit_context": {
+    "provider": "",
+    "llm_model": "",
+    "audit_date": ""
+  },
   "sections": [
     {
       "section_ref": 1,

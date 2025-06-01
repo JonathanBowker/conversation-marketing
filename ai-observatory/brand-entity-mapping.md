@@ -4,6 +4,9 @@ These labels map each form input field to its corresponding QWIKI variable or pr
 
 | Form Field Prompt (#/Section)                                        | ENTITY LABEL               | QWIKI Placeholder / Use                                                            | Notes                                                                            |
 | -------------------------------------------------------------------- | -------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| \[system] Provider name (e.g., OpenAI, Google)                       | `provider`                 | \$Provider                                                                         | Required for LLM audit context, sourcing, and comparison                         |
+| \[system] LLM model/version (e.g., GPT-4o, Gemini 1.5, Claude 3)     | `llm_model`                | \$LLMModel                                                                         | For repeatability, source context, and benchmarking                              |
+| \[system] Date of audit                                              | `audit_date`               | \$AuditDate                                                                        | For recency and trend context                                                    |
 | 1.1: What is your official brand name?                               | `brand_name`               | \$BrandName                                                                        | Used throughout for brand description, comparisons, and sentiment.               |
 | 1.2: What is your primary business description?                      | `business_description`     | \$BrandDescription                                                                 | Used in Brand Overview and summary responses.                                    |
 | 1.3: What is your primary industry / market category?                | `industry`                 | \$IndustryCategory, \$industry, \$category, \$sector                               | Populates \[industry], \[sector], and comparison contexts.                       |
@@ -38,6 +41,9 @@ These labels map each form input field to its corresponding QWIKI variable or pr
 
 ```json
 {
+  "provider": "OpenAI",
+  "llm_model": "GPT-4o",
+  "audit_date": "2025-06-01",
   "brand_name": "ACME Inc.",
   "business_description": "Leading provider of B2B SaaS tools.",
   "industry": "Enterprise Software",
@@ -78,6 +84,9 @@ These labels map each form input field to its corresponding QWIKI variable or pr
 
 | ENTITY LABEL               | Used In QWIKI As                                                                      |
 | -------------------------- | ------------------------------------------------------------------------------------- |
+| provider                   | \$Provider                                                                            |
+| llm\_model                 | \$LLMModel                                                                            |
+| audit\_date                | \$AuditDate                                                                           |
 | brand\_name                | \$BrandName                                                                           |
 | business\_description      | \$BrandDescription                                                                    |
 | industry                   | \$IndustryCategory / \$industry / \$category                                          |
@@ -113,5 +122,6 @@ These labels map each form input field to its corresponding QWIKI variable or pr
 * For each form response, extract the value and assign to the matching ENTITY LABEL.
 * When generating a QWIKI question or answer, substitute placeholders (e.g., `$BrandName`) with values from the mapped entity.
 * All variables in QWIKI output are referenced by the ENTITY LABEL mapping above.
+* Always include the provider, model, and audit date metadata for context and repeatability.
 
 ---

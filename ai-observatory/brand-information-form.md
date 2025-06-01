@@ -1,6 +1,19 @@
 # AI Visibility Audit: Brand Information Questionnaire
-
 This questionnaire is designed to gather the key details needed to assess your brand’s AI visibility and representation across answer engines like ChatGPT, Perplexity, Copilot, Google AI Overview, and Gemini. Each question includes a clear mapping to the internal QWIKI entity for streamlined processing.
+
+## Audit Context (Completed by Consultant)
+
+- **Audit Provider (LLM Platform):**  
+  *e.g., OpenAI, Google, Microsoft, Perplexity, Anthropic*
+  - **Answer:** *[Your answer]*
+
+- **Model Version:**  
+  *e.g., GPT-4o, Gemini 1.5 Pro, Claude 3 Opus*
+  - **Answer:** *[Your answer]*
+
+- **Audit Date:**  
+  *YYYY-MM-DD*
+  - **Answer:** *[Your answer]*
 
 ---
 
