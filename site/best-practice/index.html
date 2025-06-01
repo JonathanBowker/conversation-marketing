@@ -1,0 +1,2372 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Advanced Analytica guides organisations through AI visibility, schema implementation, and knowledge governance. Our actionable frameworks help you structure, secure, and amplify your brand’s knowledge for both search and AI—maximising discoverability, compliance, and business value.">
+      
+      
+        <meta name="author" content="Advanced Analytica">
+      
+      
+        <link rel="canonical" href="https://aeo.advancedanalytica.co.uk/best-practice/">
+      
+      
+        <link rel="prev" href="../part4/future-rules/">
+      
+      
+        <link rel="next" href="../conclusion/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+  <title>
+    
+      Advanced Analytica – AI Visibility Best Practice Guide
+    
+  </title>
+
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+      <link rel="stylesheet" href="../css/styles.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  
+
+  
+    <meta name="description" content="Advanced Analytica guides organisations through AI visibility, schema implementation, and knowledge governance. Our actionable frameworks help you structure, secure, and amplify your brand’s knowledge for both search and AI—maximising discoverability, compliance, and business value.">
+    <meta name="author" content="Advanced Analytica">
+    <meta name="keywords" content="AI visibility, schema best practice, structured data, brand governance, Brando schema, AI strategy consulting, knowledge transformation, agentic AI, compliance automation, knowledge engineering, synthetic personas, Google Tag Manager, rich results, data governance, analytics, enterprise search, AI audit">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Advanced Analytica – AI Visibility & Brand Schema Governance">
+    <meta property="og:description" content="Discover how to make your brand visible to AI and search with advanced schema strategies, ethical data governance, and compliance-ready structured data. Get practical guides for implementation, validation, and ongoing success.">
+    <meta property="og:url" content="https://aeo.advancedanalytica.co.uk/about">
+    <meta property="og:image" content="https://aeo.advancedanalytica.co.uk/assets/images/2x/conversation-marketing-handbook@2x.webp">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI Visibility, Schema Best Practice & Brand Governance by Advanced Analytica">
+    <meta name="twitter:description" content="Learn to structure, protect, and amplify your brand’s data for both search and AI. Step-by-step schema, compliance, and monitoring frameworks from industry leaders.">
+    <meta name="twitter:image" content="https://aeo.advancedanalytica.co.uk/assets/images/2x/conversation-marketing-handbook@2x.webp">
+
+    <!-- Schema Markup -->
+    
+  
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ai-visibility-best-practice-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Conversation Marketing" class="md-header__button md-logo" aria-label="Conversation Marketing" data-md-component="logo">
+      
+  <img src="../assets/logos/1x/advanced-analytica-logo.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Conversation Marketing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Advanced Analytica – AI Visibility Best Practice Guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/JonathanBowker/conversation-marketing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    JonathanBowker/conversation-marketing
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Conversation Marketing" class="md-nav__button md-logo" aria-label="Conversation Marketing" data-md-component="logo">
+      
+  <img src="../assets/logos/1x/advanced-analytica-logo.webp" alt="logo">
+
+    </a>
+    Conversation Marketing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/JonathanBowker/conversation-marketing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    JonathanBowker/conversation-marketing
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Homepage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../old-vs-new/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Old vs New
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../why-now/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Why Now?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../core-philosophy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Core Philosophy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to-use/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to Use This Book
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Part 1: The Foundational Rules – Strategy & Principles
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Part 1: The Foundational Rules – Strategy & Principles
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part1/rule-1-monologue-to-dialogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rule #1: From Monologue to Dialogue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part1/rule-2-ai-personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rule #2: Know Your Audience with AI-Powered Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part1/rule-3-purpose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rule #3: Define Your Conversational Purpose
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part1/rule-4-channels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rule #4: Be Where the Conversation Is
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Part 2: The Playbook – Design & Implementation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Part 2: The Playbook – Design & Implementation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part2/conversation-flows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Designing Intuitive Conversation Flows
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part2/content-for-conversation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fueling Your Engine: Content for Conversation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part2/tech-stack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Tech Stack: Tools of the Modern Marketer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part2/launching/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Launching Your Conversational Engine
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Part 3: Advanced Applications & Growth
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Part 3: Advanced Applications & Growth
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part3/proactive-dialogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Proactive Play: Initiating a Valuable Dialogue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part3/brand-dialogue-engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Brand Dialogue Engineering
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part3/conversational-advertising/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mastering Conversational Advertising
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part3/conversational-sales/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conversational Sales: From Lead to Loyal Customer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Part 4: The Rules of Measurement & The Future
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Part 4: The Rules of Measurement & The Future
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part4/new-roi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The New ROI: Measuring What Matters
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part4/continuous-improvement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Rule of Continuous Improvement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part4/future-rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Future Rules: What's Next on the Horizon
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Best Practice Guide
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Best Practice Guide
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-sitemap-audit-grouping" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Sitemap Audit &amp; Grouping
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Sitemap Audit &amp; Grouping">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-choose-schema-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Choose Schema Types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Choose Schema Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-mapping-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Mapping Table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-use-json-ld-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Use JSON-LD Format
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Use JSON-LD Format">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-product-schema-in-json-ld" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example: Product Schema in JSON-LD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-deploy-via-google-tag-manager-gtm" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Deploy via Google Tag Manager (GTM)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Deploy via Google Tag Manager (GTM)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Use Cases
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-ensure-accuracy-and-consistency" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Ensure Accuracy and Consistency
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-validate-regularly" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Validate Regularly
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-prioritise-key-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Prioritise Key Pages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-keep-schema-up-to-date" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Keep Schema Up-to-Date
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-document-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Document Deployment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-implement-ethically" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Implement Ethically
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-optimise-for-rich-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Optimise for Rich Results
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-monitor-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. Monitor Performance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-leverage-extension-schemas-eg-brando" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. Leverage Extension Schemas (e.g., Brando)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-host-extension-context-at-a-public-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      14. Host Extension Context at a Public URL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-reference-all-contexts-in-json-ld" class="md-nav__link">
+    <span class="md-ellipsis">
+      15. Reference All Contexts in JSON-LD
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-ensure-compatibility-and-validate-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      16. Ensure Compatibility and Validate Extensions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-document-and-monitor-extension-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      17. Document and Monitor Extension Usage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-communicate-extension-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      18. Communicate Extension Value
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conclusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conclusion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Appendix
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Appendix
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendix/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendix/resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resource Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendix/conversation-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conversation Flow Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendix/checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conversation Engine Checklist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    About Us
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            About Us
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advanced Analytica
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terms-of-service/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Terms of Service
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-sitemap-audit-grouping" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Sitemap Audit &amp; Grouping
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Sitemap Audit &amp; Grouping">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-choose-schema-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Choose Schema Types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Choose Schema Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-mapping-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Mapping Table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-use-json-ld-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Use JSON-LD Format
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Use JSON-LD Format">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-product-schema-in-json-ld" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example: Product Schema in JSON-LD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-deploy-via-google-tag-manager-gtm" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Deploy via Google Tag Manager (GTM)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Deploy via Google Tag Manager (GTM)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Use Cases
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-ensure-accuracy-and-consistency" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Ensure Accuracy and Consistency
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-validate-regularly" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Validate Regularly
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-prioritise-key-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Prioritise Key Pages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-keep-schema-up-to-date" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Keep Schema Up-to-Date
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-document-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Document Deployment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-implement-ethically" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Implement Ethically
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-optimise-for-rich-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Optimise for Rich Results
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-monitor-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. Monitor Performance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-leverage-extension-schemas-eg-brando" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. Leverage Extension Schemas (e.g., Brando)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-host-extension-context-at-a-public-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      14. Host Extension Context at a Public URL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-reference-all-contexts-in-json-ld" class="md-nav__link">
+    <span class="md-ellipsis">
+      15. Reference All Contexts in JSON-LD
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-ensure-compatibility-and-validate-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      16. Ensure Compatibility and Validate Extensions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-document-and-monitor-extension-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      17. Document and Monitor Extension Usage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-communicate-extension-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      18. Communicate Extension Value
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="ai-visibility-best-practice-guide">AI Visibility Best Practice Guide</h1>
+<p><img src="https://aeo.advancedanalytica.co.uk/assets/images/2x/ai-visibility-best-practice-guide@2x.webp" alt="AI Visibility Best Practice Guide" style="width: 100%; max-width: 1000px; display: block; margin: 2rem auto;" /></p>
+<p>The AI Visibility Best Practice Guide is a playbook for ensuring that your website, brand, or digital assets are discoverable, understandable, and accurately represented by modern AI-powered systems such as Google’s new AI Overviews, ChatGPT, Gemini, Perplexity, and other answer engines. </p>
+<p>The guide distils the essential best practices for maximising your brand’s visibility in the AI era, from foundational sitemap audits through advanced schema strategies and extension frameworks like Brando. Each section delivers actionable steps, checklists, and real-world examples to help you structure, secure, and amplify your organisation’s knowledge.</p>
+<p>Whether you’re a digital leader, SEO specialist, content strategist, or compliance professional, this guide will help you:</p>
+<ul>
+<li>Audit and organise your content for full coverage</li>
+<li>Select and implement the right schema types</li>
+<li>Deploy and manage structured data at scale</li>
+<li>Maintain ethical, compliant, and up-to-date markup</li>
+<li>Leverage advanced brand and governance schemas</li>
+<li>Monitor and optimise for both search and AI-driven results</li>
+</ul>
+<p><strong>Are you ready to make your brand and knowledge truly AI-visible? Let’s get started.</strong></p>
+<h2 id="1-sitemap-audit-grouping">1. Sitemap Audit &amp; Grouping</h2>
+<p><strong>Purpose:</strong>
+A thorough sitemap audit is the essential first step in any schema project. By inventorying and categorising all site URLs, you ensure no content is overlooked and can plan a phased, efficient rollout of schema markup.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Export your current sitemap or via a crawl tool like Scrapy.</li>
+<li>List all unique URLs and group them by content type (e.g., Product, Service, Article, Location, FAQ, Blog).</li>
+<li>Identify templates and reusable page layouts; flag unique or one-off pages.</li>
+<li>Note which pages are most important for business value, compliance, or traffic.</li>
+<li>Document duplicate, outdated, or low-value URLs for possible exclusion from schema work.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+A structured inventory (spreadsheet, Airtable, or other database) with URL, content type, template status, priority, and notes.</p>
+<p><strong>Why it matters:</strong>
+This foundational audit prevents gaps, uncovers hidden opportunities, and ensures you focus efforts where schema will deliver the most value.</p>
+<hr />
+<h3 id="example-table"><strong>Example Table</strong></h3>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Content Type</th>
+<th>Template?</th>
+<th>Priority</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/products/widget-a</td>
+<td>Product</td>
+<td>Yes</td>
+<td>High</td>
+<td>Best-seller</td>
+</tr>
+<tr>
+<td>/services/consulting</td>
+<td>Service</td>
+<td>Yes</td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>/about/team/jane-doe</td>
+<td>Team</td>
+<td>No</td>
+<td>Low</td>
+<td>Key executive</td>
+</tr>
+<tr>
+<td>/blog/2024/ai-visibility-guide</td>
+<td>Article</td>
+<td>Yes</td>
+<td>High</td>
+<td>Top traffic</td>
+</tr>
+<tr>
+<td>/faq</td>
+<td>FAQ</td>
+<td>Yes</td>
+<td>High</td>
+<td>Legally required</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> Full sitemap exported and reviewed</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Pages grouped by content type</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Templates and unique pages identified</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Priorities and business-critical sections noted</li>
+</ul>
+<hr />
+<h2 id="2-choose-schema-types">2. Choose Schema Types</h2>
+<p><strong>Purpose:</strong>
+Selecting the most relevant schema.org types (and any extension schemas) for each content group ensures your structured data accurately reflects your site’s real-world entities. This helps AI, search engines, and assistants understand and correctly represent your content.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>For each content group (identified in your sitemap audit), select the most specific schema.org type available (e.g., <code>Product</code>, <code>Article</code>, <code>FAQPage</code>, <code>Event</code>, <code>LocalBusiness</code>, <code>Service</code>, <code>Person</code>, etc.).</li>
+<li>If a content group represents something unique or not fully covered by schema.org, consider leveraging or defining an <strong>extension schema</strong> (e.g., Brando for brand-specific attributes).</li>
+<li>Review the official <a href="https://schema.org/docs/full.html">schema.org documentation</a> or use tools like <a href="https://technicalseo.com/tools/schema-markup-generator/">Schema Markup Generator</a> to explore and confirm your choices.</li>
+<li>Document your mapping: each group should have a primary schema type, and note any properties or extensions that will be applied.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+A content-to-schema mapping table, showing which schema types (and extensions) are assigned to each group.</p>
+<p><strong>Why it matters:</strong>
+Correct type selection is the foundation of effective structured data. The more precise your mapping, the better your site will perform in AI search and rich results.</p>
+<hr />
+<h3 id="example-mapping-table"><strong>Example Mapping Table</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Content Group</th>
+<th>Example URL</th>
+<th>Schema Type</th>
+<th>Extension Used?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Products</td>
+<td>/products/widget-a</td>
+<td>Product</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Services</td>
+<td>/services/consulting</td>
+<td>Service</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Blog</td>
+<td>/blog/2024/ai-visibility...</td>
+<td>BlogPosting</td>
+<td>No</td>
+</tr>
+<tr>
+<td>FAQ</td>
+<td>/faq</td>
+<td>FAQPage</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Brand Profile</td>
+<td>/about</td>
+<td>Organization</td>
+<td>Yes (Brando Schema)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> Each content group mapped to the most specific schema.org type</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Extension schemas noted where standard types are insufficient</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Documentation of all schema type assignments</li>
+</ul>
+<hr />
+<h2 id="3-use-json-ld-format">3. Use JSON-LD Format</h2>
+<p><strong>Purpose:</strong>
+JSON-LD (JavaScript Object Notation for Linked Data) is the preferred format for structured data. It is supported by Google, Bing, and all major AI answer systems (ChatGPT, Gemini, Claude, Perplexity etc), and is easier to maintain than inline microdata or RDFa.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Implement all schema markup on your pages using the <a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data">JSON-LD format</a>.</li>
+<li>Place your JSON-LD scripts inside the <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code> section of each page.</li>
+<li>Ensure the data in your JSON-LD matches the visible content users see on the page.</li>
+<li>Use tools like Schema Markup Generator to create JSON-LD snippets and Google’s Rich Results Test to validate.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+Every key page type contains a <code>&lt;script type="application/ld+json"&gt;...&lt;/script&gt;</code> block with accurate, well-formatted schema data.</p>
+<p><strong>Why it matters:</strong>
+JSON-LD is machine-friendly, easy to debug, and doesn’t interfere with page layout or CMS templates. It’s the industry standard and gives you maximum flexibility for updates and extensions.</p>
+<hr />
+<h3 id="example-product-schema-in-json-ld"><strong>Example: Product Schema in JSON-LD</strong></h3>
+<div class="highlight"><pre><span></span><code><span class="err">&lt;scrip</span><span class="kc">t</span><span class="w"> </span><span class="kc">t</span><span class="err">ype=</span><span class="s2">&quot;application/ld+json&quot;</span><span class="err">&gt;</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schema.org&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Product&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Widget A&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Our flagship widget.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;sku&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;12345&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;brand&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Brand&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Acme&quot;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+<span class="err">&lt;/scrip</span><span class="kc">t</span><span class="err">&gt;</span>
+</code></pre></div>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> All structured data is implemented using JSON-LD</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Scripts are placed in the page <code>&lt;head&gt;</code> or at the top of <code>&lt;body&gt;</code></li>
+<li class="task-list-item"><input type="checkbox" disabled/> Content in JSON-LD matches what is shown to users</li>
+</ul>
+<hr />
+<h2 id="4-deploy-via-google-tag-manager-gtm">4. Deploy via Google Tag Manager (GTM)</h2>
+<p><strong>Purpose:</strong>
+Google Tag Manager (GTM) allows you to centrally manage, update, and scale your schema markup—without direct code changes—especially useful for large, complex, or frequently updated sites.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Set up <a href="https://tagmanager.google.com/">Google Tag Manager</a> on your website if it isn’t already in place.</li>
+<li>Create custom HTML tags in GTM containing your JSON-LD schema for each relevant page or template.</li>
+<li>Use GTM triggers to specify which pages or page groups should receive which schema tags, based on URL patterns, page types, or other rules.</li>
+<li>When changes are needed, update your schema in GTM and publish—no code deployment required.</li>
+<li>Test changes in GTM’s preview mode and validate with tools like Google’s Rich Results Test before going live.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+A centrally managed library of schema markup tags within GTM, mapped to the correct pages and easily updateable by authorised team members.</p>
+<p><strong>Why it matters:</strong>
+Using GTM streamlines the deployment and maintenance of structured data, reduces dependency on developer resources, speeds up updates, and supports governance and audit trails.</p>
+<hr />
+<h3 id="example-use-cases"><strong>Example Use Cases</strong></h3>
+<ul>
+<li>Deploy product schema only on <code>/products/*</code> pages.</li>
+<li>Apply FAQPage schema to all URLs containing <code>/faq</code>.</li>
+<li>Roll out brand or extension schema site-wide for consistent AI visibility.</li>
+</ul>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> Google Tag Manager installed and configured</li>
+<li class="task-list-item"><input type="checkbox" disabled/> JSON-LD schema deployed using GTM tags and triggers</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Schema updates and maintenance process documented</li>
+</ul>
+<hr />
+<h2 id="5-ensure-accuracy-and-consistency">5. Ensure Accuracy and Consistency</h2>
+<p><strong>Purpose:</strong>
+For structured data to be trusted by search engines, AI systems, and users, it must accurately represent the content that is visible on the page. Mismatches can lead to penalties, loss of rich results, or reduced trust in your brand.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Always ensure that information provided in your schema markup (e.g., product name, price, availability, event dates, organisation details) matches exactly what is shown to users on the page.</li>
+<li>Avoid including schema properties for data not present or visible on the page.</li>
+<li>If the page content is dynamic (e.g., prices, stock, reviews), make sure the schema updates in sync with the page.</li>
+<li>Periodically audit your key pages to check for discrepancies between visible content and schema data.</li>
+<li>Where possible, automate the extraction of schema data from the same source as the on-page content (e.g., from the CMS or product database).</li>
+</ul>
+<p><strong>Deliverable:</strong>
+All structured data is a truthful, up-to-date reflection of what’s visible to users on each corresponding page.</p>
+<p><strong>Why it matters:</strong>
+Accurate and consistent markup maintains eligibility for rich results, builds trust with search engines and AI, and protects against penalties or visibility loss.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> All schema properties reflect visible page content</li>
+<li class="task-list-item"><input type="checkbox" disabled/> No “hidden” or misleading markup included</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Regular audits/checks for accuracy, especially on key pages</li>
+</ul>
+<hr />
+<h2 id="6-validate-regularly">6. Validate Regularly</h2>
+<p><strong>Purpose:</strong>
+Regular validation ensures your structured data is error-free, up to date, and eligible for rich results or enhanced AI interpretation. Proactive validation catches issues before they impact search performance or AI visibility.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Use <a href="https://search.google.com/test/rich-results">Google’s Rich Results Test</a> to check for errors, warnings, and eligibility for rich results on individual URLs.</li>
+<li>Use the <a href="https://validator.schema.org/">Schema Markup Validator</a> to validate your JSON-LD, Microdata, or RDFa against schema.org standards.</li>
+<li>Monitor <a href="https://search.google.com/search-console/about">Google Search Console</a> (GSC) for site-wide structured data issues, enhancements, and coverage reports.</li>
+<li>Address all errors and critical warnings promptly.</li>
+<li>Schedule periodic (e.g., monthly or quarterly) reviews—especially after significant website or content changes.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+A clean bill of health in GSC and other validators, with no unresolved structured data errors or warnings.</p>
+<p><strong>Why it matters:</strong>
+Valid, error-free schema markup maximises eligibility for rich results, supports AI discoverability, and prevents loss of visibility due to technical issues.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> All key pages tested with Google Rich Results Test</li>
+<li class="task-list-item"><input type="checkbox" disabled/> All schema validated with Schema Markup Validator</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Google Search Console monitored for ongoing structured data issues</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Validation scheduled as a recurring process</li>
+</ul>
+<hr />
+<h2 id="7-prioritise-key-pages">7. Prioritise Key Pages</h2>
+<p><strong>Purpose:</strong>
+Focusing your schema efforts on the most important pages first delivers the quickest return on investment, maximises business impact, and helps secure early wins for your AI visibility strategy.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Identify your website’s high-traffic, high-value, or legally required pages using analytics tools and business input.</li>
+<li>Prioritise pages that support business goals (e.g., top-selling products, main service pages, key locations, FAQs, or articles with high engagement).</li>
+<li>Address pages that are most likely to qualify for rich results, such as those with reviews, events, jobs, or FAQs.</li>
+<li>Consider regulatory requirements—some content (e.g., healthcare, financial, or legal information) may have a compliance imperative for accurate schema.</li>
+<li>After implementing and validating schema on these key pages, expand gradually to additional sections.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+A phased implementation plan that starts with the most impactful pages, ensuring maximum value from the outset.</p>
+<p><strong>Why it matters:</strong>
+Quick wins help demonstrate the value of schema to stakeholders, accelerate learning, and establish best practices before scaling across your full site.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> High-impact pages identified and prioritised</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Schema applied and validated on key sections first</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Phased rollout plan documented for broader coverage</li>
+</ul>
+<hr />
+<h2 id="8-keep-schema-up-to-date">8. Keep Schema Up-to-Date</h2>
+<p><strong>Purpose:</strong>
+Accurate schema markup is only as good as its currency. As your website content evolves—especially dynamic elements like products, events, or offers—your structured data must remain aligned.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Set a regular schedule (e.g., monthly or quarterly) to review and update schema markup across your site.</li>
+<li>Immediately update schema whenever you add, change, or remove key page content, such as new products, pricing changes, event dates, or contact information.</li>
+<li>Automate updates wherever possible by linking schema generation to your CMS, product database, or content APIs.</li>
+<li>After major website updates or redesigns, perform a full audit to ensure schema remains accurate and complete.</li>
+<li>Monitor for broken links, outdated properties, or deprecated schema types.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+Continuously accurate and up-to-date structured data that reflects the current state of your site.</p>
+<p><strong>Why it matters:</strong>
+Up-to-date schema ensures your content remains eligible for rich results, maintains trust with search engines and AI, and avoids penalties or misinformation.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> Regular review/update schedule established</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Schema updated promptly with site/content changes</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Automated schema syncing implemented where possible</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Full audit after major site updates</li>
+</ul>
+<hr />
+<h2 id="9-document-deployment">9. Document Deployment</h2>
+<p><strong>Purpose:</strong>
+Comprehensive documentation makes schema management scalable, supports collaboration across teams, ensures continuity, and speeds up onboarding for new staff or agencies.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Maintain a central record of which schema types and properties are implemented on which page templates or URLs.</li>
+<li>Document the location of all schema code: in-page, via CMS, or managed in Google Tag Manager.</li>
+<li>Record update procedures, including who is responsible, how updates are made (manual/automated), and where version history is kept.</li>
+<li>Note the date of last validation or audit, and schedule for the next review.</li>
+<li>Store documentation in a location accessible to all relevant stakeholders (e.g., within your CMS, internal wiki, or project management system).</li>
+</ul>
+<p><strong>Deliverable:</strong>
+A living schema deployment document or knowledge base, updated with every change.</p>
+<p><strong>Why it matters:</strong>
+Documentation reduces errors, prevents loss of institutional knowledge, supports compliance, and ensures the schema strategy remains effective as your site evolves.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> Schema types and properties mapped to URLs/templates</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Deployment methods and locations recorded</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Update and review procedures clearly outlined</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Documentation is accessible and regularly updated</li>
+</ul>
+<hr />
+<h2 id="10-implement-ethically">10. Implement Ethically</h2>
+<p><strong>Purpose:</strong>
+Trust is fundamental in structured data. Ethically implemented schema maintains credibility with users, search engines, and AI systems, and protects your brand from penalties or loss of trust.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Only mark up content that is genuinely present and visible to users on the page.</li>
+<li>Never use schema to misrepresent, exaggerate, or mislead (e.g., claiming awards, reviews, or features that do not exist).</li>
+<li>Follow <a href="https://developers.google.com/search/docs/appearance/structured-data/policies">Google’s structured data guidelines</a> and avoid “spammy” or manipulative markup.</li>
+<li>Ensure that automated or dynamic schema updates do not introduce inaccuracies or deceptive information.</li>
+<li>If content changes, promptly update or remove corresponding schema markup.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+All schema markup is honest, accurate, and transparently reflects on-page content.</p>
+<p><strong>Why it matters:</strong>
+Ethical implementation builds long-term trust with users and platforms, protects your search and AI visibility, and upholds your brand’s reputation.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> Only visible content is marked up</li>
+<li class="task-list-item"><input type="checkbox" disabled/> No misleading or exaggerated schema used</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Automated updates are monitored for accuracy</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Team understands and follows ethical guidelines</li>
+</ul>
+<hr />
+<h2 id="11-optimise-for-rich-results">11. Optimise for Rich Results</h2>
+<p><strong>Purpose:</strong>
+Rich results (also called rich snippets) enhance your search listings with additional information—such as ratings, FAQs, prices, or images—which can boost click-through rates and brand visibility.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Identify which rich results are most relevant to your content types (e.g., Product, FAQ, Review, Event, Recipe, HowTo).</li>
+<li>Review <a href="https://developers.google.com/search/docs/appearance/structured-data/search-gallery">Google’s list of supported rich result types</a>.</li>
+<li>Add the required and recommended schema properties for each rich result type you target (e.g., <code>aggregateRating</code>, <code>price</code>, <code>image</code>, <code>acceptedAnswer</code>).</li>
+<li>Test your implementation with <a href="https://search.google.com/test/rich-results">Google’s Rich Results Test</a> to ensure eligibility.</li>
+<li>Monitor performance and refine as needed, updating schema to qualify for new rich result types as they become available.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+Key pages are marked up with schema properties that make them eligible for relevant rich results in search.</p>
+<p><strong>Why it matters:</strong>
+Rich results can improve search appearance, attract more clicks, and increase trust by providing users with helpful, detailed information at a glance.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> Target rich result types identified for each content group</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Required and recommended schema properties included</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Rich Results Test used to confirm eligibility</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Performance monitored and optimisations applied</li>
+</ul>
+<hr />
+<h2 id="12-monitor-performance">12. Monitor Performance</h2>
+<p><strong>Purpose:</strong>
+Tracking performance ensures your schema markup is delivering value, remains error-free, and adapts to changes in search algorithms, user behaviour, or business priorities.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Regularly review <a href="https://search.google.com/search-console/about">Google Search Console</a> (GSC) for structured data enhancements, errors, and warnings.</li>
+<li>Monitor the appearance and performance of rich results in GSC’s “Performance” and “Enhancements” reports.</li>
+<li>Track metrics such as impressions, clicks, click-through rates, and appearance of rich snippets for marked-up pages.</li>
+<li>Use web analytics tools (e.g., Google Analytics) to analyse changes in user engagement or conversions on pages with schema markup.</li>
+<li>Log incidents, errors, and the resolution of structured data issues for future reference.</li>
+<li>Adjust your schema strategy based on what’s working—double down on successful content types and revise areas not driving value.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+Ongoing reporting and analytics that demonstrate the impact of schema markup and inform continuous improvement.</p>
+<p><strong>Why it matters:</strong>
+Monitoring helps you prove ROI, spot and fix issues quickly, and refine your schema strategy for maximum business and search impact.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> GSC regularly reviewed for structured data performance and issues</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Impressions, clicks, and CTR for rich results tracked</li>
+<li class="task-list-item"><input type="checkbox" disabled/> User engagement/conversion metrics monitored</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Schema issues and resolutions logged</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Strategy adjusted based on performance insights</li>
+</ul>
+<hr />
+<h2 id="13-leverage-extension-schemas-eg-brando">13. Leverage Extension Schemas (e.g., Brando)</h2>
+<p><strong>Purpose:</strong>
+Standard schema.org types cover common business needs, but extension schemas allow you to represent unique brand attributes, governance policies, or sector-specific details—giving your brand greater control and depth in AI and search environments.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Identify areas where your brand, governance, or sector requirements go beyond what schema.org provides (e.g., brand tone, approved messaging, compliance signals).</li>
+<li>Use or develop an extension schema, such as Brando, to add these custom properties or types.</li>
+<li>Define the vocabulary and document its use for your team and partners.</li>
+<li>Reference your extension properties alongside standard schema.org types in your JSON-LD markup.</li>
+<li>Ensure all custom properties are relevant, accurate, and valuable to downstream consumers like search engines, LLMs, and intelligent assistants.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+Structured data that combines standard schema.org properties with brand-specific or governance-related attributes, enhancing discoverability and AI readiness.</p>
+<p><strong>Why it matters:</strong>
+Extension schemas enable brands to be more expressive, control their identity in AI-driven spaces, and future-proof their digital assets for emerging search and assistant technologies.</p>
+<hr />
+<p><strong>Example</strong></p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="s2">&quot;https://schema.org&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;https://brandoschema.com/.well-known/context&quot;</span>
+<span class="w">  </span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Organization&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Acme Corp&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;brando:toneOfVoice&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Reassuring, clear, expert&quot;</span>
+<span class="p">}</span>
+</code></pre></div>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> Brand/governance needs identified that exceed schema.org</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Extension schema selected or defined (e.g., Brando)</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Extension properties included in JSON-LD markup</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Extension documented for team and partners</li>
+</ul>
+<hr />
+<h2 id="14-host-extension-context-at-a-public-url">14. Host Extension Context at a Public URL</h2>
+<p><strong>Purpose:</strong>
+To make your extension schema usable and discoverable by AI agents, search engines, and partners, its context file (the “dictionary” of your custom properties) must be hosted at a stable, public location.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Create a JSON-LD context file that defines your custom types and properties.</li>
+<li>
+<p>Host this file at a permanent, public URL—ideally at your main domain using the <code>.well-known/</code> directory for standards alignment.</p>
+</li>
+<li>
+<p>Example: <code>https://yourdomain.com/.well-known/context</code></p>
+</li>
+<li>Alternatively: <code>https://yourdomain.com/context</code></li>
+<li>Ensure the file is accessible (no authentication or blocking in robots.txt).</li>
+<li>Keep the context file up to date as your extension schema evolves.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+A publicly accessible, standards-compliant URL where your extension schema context can be referenced in JSON-LD.</p>
+<p><strong>Why it matters:</strong>
+A well-hosted context file allows search engines, AI, and third parties to correctly interpret your extension properties, ensuring your custom schema is understood and reliably used.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> Context file created in valid JSON-LD format</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Hosted at a stable, public URL (preferably <code>.well-known/context</code>)</li>
+<li class="task-list-item"><input type="checkbox" disabled/> File is accessible and not blocked by robots.txt or authentication</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Updates managed as schema evolves</li>
+</ul>
+<hr />
+<h2 id="15-reference-all-contexts-in-json-ld">15. Reference All Contexts in JSON-LD</h2>
+<p><strong>Purpose:</strong>
+Properly referencing both standard and extension contexts in your JSON-LD ensures that all properties—whether from schema.org or your own extension—are correctly defined and understood by machines.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>In your JSON-LD, use the <code>@context</code> property to specify every vocabulary your markup uses.</li>
+<li>For standard schema.org markup, include <code>https://schema.org</code> in the <code>@context</code>.</li>
+<li>If you use custom properties from an extension schema (like Brando), add your extension’s context URL as an additional entry in the <code>@context</code> array.</li>
+<li>This makes your structured data fully interpretable and compliant with linked data standards.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+All JSON-LD markup that uses extension properties includes both the schema.org context and your extension context in its <code>@context</code> array.</p>
+<p><strong>Why it matters:</strong>
+Referencing all contexts ensures interoperability, avoids confusion, and future-proofs your markup for more sophisticated AI, search, and partner applications.</p>
+<hr />
+<p><strong>Example</strong></p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="s2">&quot;https://schema.org&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;https://yourdomain.com/.well-known/context&quot;</span>
+<span class="w">  </span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Organization&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Acme Corp&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;brando:toneOfVoice&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Reassuring, clear, expert&quot;</span>
+<span class="p">}</span>
+</code></pre></div>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> All standard and extension contexts are referenced in <code>@context</code></li>
+<li class="task-list-item"><input type="checkbox" disabled/> Markup is tested to confirm proper interpretation of all properties</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Future extensions can be added easily by including new context URLs</li>
+</ul>
+<hr />
+<h2 id="16-ensure-compatibility-and-validate-extensions">16. Ensure Compatibility and Validate Extensions</h2>
+<p><strong>Purpose:</strong>
+To ensure your extension schemas (like Brando) work seamlessly with standard schema.org and are correctly interpreted by all consumers—search engines, AI systems, and third-party tools.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Check that custom types and properties do not conflict with existing schema.org vocabulary.</li>
+<li>Use established linked data practices for defining custom terms in your extension context file.</li>
+<li>Validate your JSON-LD with both standard tools (like <a href="https://validator.schema.org/">Schema Markup Validator</a>) and custom or open-source linked data tools that support extension schemas.</li>
+<li>Test interpretation of your markup using LLMs, AI assistants, or validation services that can consume both standard and extension schemas.</li>
+<li>Stay up to date with schema.org releases and adapt your extension if standard types/properties become available.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+Fully interoperable structured data that works with both core schema.org and your extension, error-free and aligned with best practices.</p>
+<p><strong>Why it matters:</strong>
+Compatibility and proper validation are crucial for adoption, interoperability, and ensuring your extension properties add value rather than causing confusion or errors.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> No conflicts between extension and schema.org types/properties</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Custom terms defined with linked data best practice</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Markup validated with standard and extension-aware tools</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Markup tested for AI/LLM interpretation</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Extension updated if schema.org adds relevant types</li>
+</ul>
+<hr />
+<h2 id="17-document-and-monitor-extension-usage">17. Document and Monitor Extension Usage</h2>
+<p><strong>Purpose:</strong>
+Systematic documentation and monitoring of your extension schemas ensure consistency, governance, and the ability to scale or adapt your structured data strategy as needs evolve.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Maintain a central log or documentation of all places where your extension schema (e.g., Brando) is implemented across your website or digital properties.</li>
+<li>Record which properties are used, in which content types or templates, and the purpose for each.</li>
+<li>Track any updates, additions, or removals of extension properties—ideally using version control or changelogs.</li>
+<li>Monitor for issues such as errors in Search Console, validation failures, or changes in how search engines/AI interpret your extensions.</li>
+<li>Periodically review and audit extension usage for relevance, accuracy, and ongoing business value.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+An up-to-date record of all extension schema usage and a clear process for monitoring, auditing, and updating as needed.</p>
+<p><strong>Why it matters:</strong>
+Good documentation and monitoring reduce risk, support team collaboration, and make it easier to scale or update your schema as technologies, regulations, or business requirements change.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> All uses of extension schemas are logged and documented</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Updates and changes are version-controlled</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Regular audits for accuracy and relevance</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Monitoring in place for validation issues or changes in ecosystem support</li>
+</ul>
+<hr />
+<h2 id="18-communicate-extension-value">18. Communicate Extension Value</h2>
+<p><strong>Purpose:</strong>
+Ensuring all relevant stakeholders understand the purpose and benefits of your extension schemas (like Brando) drives adoption, supports consistent implementation, and maximises business value.</p>
+<p><strong>How to do it:</strong></p>
+<ul>
+<li>Develop clear documentation and internal guides that explain what your extension schema is, why it’s used, and how it benefits the organisation (e.g., improved brand control, AI discoverability, governance).</li>
+<li>Present use cases, real-world examples, and measurable outcomes to non-technical and technical teams alike.</li>
+<li>Provide training sessions or workshops for content, web, and SEO teams to build understanding and buy-in.</li>
+<li>Include extension schema awareness in onboarding for new team members and external partners or agencies.</li>
+<li>Share successes and improvements that result from extension schema use to reinforce ongoing commitment.</li>
+</ul>
+<p><strong>Deliverable:</strong>
+Stakeholders at all levels are informed, confident, and supportive of the extension schema strategy.</p>
+<p><strong>Why it matters:</strong>
+Widespread understanding and buy-in ensure correct, consistent implementation and unlock the full business and brand value of your extension schema investments.</p>
+<hr />
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> Clear, accessible documentation and guides available</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Use cases and benefits communicated to stakeholders</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Training/workshops offered for key teams</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Extension schema included in onboarding</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Success stories and business impact shared regularly</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div style="text-align: center; padding: 0.75em 0;">
+  <span style="font-size: 1.1em; font-weight: 600;">
+    © 2025 <a href="https://advancedanalytica.co.uk" style="color: inherit; text-decoration: none;">Advanced Analytica</a>
+  </span>
+  <span style="font-size: 1.1em; font-weight: 300;">
+    – Making AI work for your brand
+  </span>
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.headings.anchor", "header.autohide"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../js/smooth-scroll.js"></script>
+      
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+      
+        <script src="../js/linked_map.js"></script>
+      
+    
+  </body>
+</html>

@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: The Proactive Play – How to Start Valuable Customer Conversations
 og_description: Discover how to use behaviour, timing, and context to initiate helpful brand conversations that create trust and drive action.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part3/proactive-dialogue
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part3/proactive-dialogue
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: Start Better Conversations – The Proactive Messaging Playbook
 twitter_description: Don’t wait. Learn how to start timely, relevant, and respectful customer dialogues that feel helpful — not pushy.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 
@@ -126,9 +126,9 @@ You don’t have to wait for customers to make the first move.
 
 With the right timing, tools, and tone, you can initiate conversations that create value, reduce friction, and build stronger relationships — without ever feeling intrusive.
 
-> “The brands that start the best conversations are the ones people come back to.”  
-> — *Jonny Bowker*
+> “The brands that engage in relevant conversations are the brands people come back to.”  
+> — ***[Jonny Bowker](https://www.linkedin.com/in/jbbowker/)***
 
 ---
 
-➡️ [Next: Mastering Conversational Advertising](conversational-advertising.md)
+[Next: Mastering Conversational Advertising](conversational-advertising.md)

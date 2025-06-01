@@ -19,17 +19,19 @@ author: Advanced Analytica
 og_title: The Old Rules vs. The New Rules – Conversation Marketing Evolution
 og_description: Discover how marketing is shifting from control and broadcast to conversation, co-creation, and customer-first thinking. Old assumptions no longer apply.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/old-vs-new
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/old-vs-new
+og_image: https://aeo.advancedanalytica.co.uk/assets/images/2x/old-rules-vs-new-rules@2x.webp
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: From Broadcast to Dialogue – The New Rules of Marketing
 twitter_description: See how outdated marketing principles are giving way to relevance, personalisation, and conversation-first brand strategy.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/images/2x/old-rules-vs-new-rules@2x.webp
 ---
 
 # The Old Rules vs. The New Rules
+
+<img src="https://aeo.advancedanalytica.co.uk/assets/images/2x/old-rules-vs-new-rules@2x.webp" alt="Conversation Marketing Handbook Cover" style="width: 100%; max-width: 1000px; display: block; margin: 2rem auto;" />
 
 Marketing used to be about control. Brands controlled the message, the timing, the channel — and often, the customer had little say in the matter. It was all about reach, repetition, and recall. The louder you were, the more you stood out.
 
@@ -94,8 +96,8 @@ If you're still operating by the old rules, you're no longer just behind — you
 Making the shift isn’t just smart — it’s necessary.
 
 > “People don’t buy products. They buy relationships, stories, and experiences.”  
-> — Seth Godin
+> — ***Seth Godin***
 
 ---
 
-➡️ [Next: Why Now?](why-now.md)
+[Next: Why Now?](why-now.md)

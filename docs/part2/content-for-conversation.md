@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: Fueling Your Engine – Content for Conversation Marketing
 og_description: Discover how to design content that adapts, listens, and responds — from quick replies and product cards to tone-aware messaging blocks.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part2/content-for-conversation
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part2/content-for-conversation
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: Build Better Content for Real-Time Conversations
 twitter_description: Explore how modular, responsive content drives better engagement in chat, voice, and AI-powered brand journeys.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 # Fueling Your Engine: Content for Conversation
@@ -132,4 +132,4 @@ Conversation-ready content is about more than just writing short messages. It’
 
 ---
 
-➡️ [Next: The Tech Stack – Tools of the Modern Marketer](tech-stack.md)
+[Next: The Tech Stack – Tools of the Modern Marketer](tech-stack.md)

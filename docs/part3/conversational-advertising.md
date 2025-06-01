@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: Mastering Conversational Advertising – Turn Clicks Into Conversations
 og_description: Learn how to create paid campaigns that engage through chat, not clicks. Drive performance by making ads feel more like helpful conversations.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part3/conversational-advertising
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part3/conversational-advertising
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: Conversational Ads That Convert – Master the New Ad Format
 twitter_description: From Messenger to display, learn how to use dialogue-first advertising to drive engagement, intent, and action.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 # Mastering Conversational Advertising
@@ -141,8 +141,8 @@ This is performance marketing — with a human voice.
 Conversational advertising doesn’t replace your media strategy — it *enhances* it. It turns attention into action by inviting users to engage, explore, and decide — through a medium that feels personal.
 
 > “The best ads don’t feel like ads. They feel like help.”  
-> — ***Jonny Bowker***
+> — ***[Jonny Bowker](https://www.linkedin.com/in/jbbowker/)***
 
 ---
 
-➡️ [Next: Conversational Sales – From Lead to Loyal Customer](conversational-sales.md)
+[Next: Conversational Sales – From Lead to Loyal Customer](conversational-sales.md)

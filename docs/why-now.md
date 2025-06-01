@@ -19,17 +19,19 @@ author: Advanced Analytica
 og_title: Why Now? – The AI and Customer Shift Behind Conversation Marketing
 og_description: AI is changing how customers search, decide, and engage. Learn why conversation marketing is no longer optional — and why early adopters are winning.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/why-now
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/why-now
+og_image: https://aeo.advancedanalytica.co.uk/assets/images/2x/why-do-you-need-to-act-now@2x.webp
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: Why Now? – The Conversation Marketing Tipping Point
 twitter_description: See why AI, customer behaviour, and competitive urgency have made conversation marketing the new imperative.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/images/2x/why-do-you-need-to-act-now@2x.webp
 ---
 
 # Why Now?
+
+<img src="https://aeo.advancedanalytica.co.uk/assets/images/2x/why-do-you-need-to-act-now@2x.webp" alt="Conversation Marketing Handbook Cover" style="width: 100%; max-width: 1000px; display: block; margin: 2rem auto;" />
 
 It’s easy to assume that conversation marketing is just another trend — another buzzword that will fade. But that couldn’t be further from the truth. This shift is not only real, it’s accelerating — driven by the convergence of **technology**, **customer expectations**, and **competitive pressure**.
 
@@ -107,7 +109,7 @@ Brands that have embraced conversation-first strategies are seeing outsized retu
 These brands have stopped shouting and started listening — and their results show higher engagement, loyalty, and discoverability.
 
 > “The best marketing doesn’t feel like marketing.”  
-> — *Tom Fishburne*
+> — ***Tom Fishburne***
 
 ---
 
@@ -117,4 +119,4 @@ This isn’t a cosmetic update to your strategy — it’s a fundamental rewirin
 
 ---
 
-➡️ [Next: The Core Philosophy](core-philosophy.md)
+[Next: The Core Philosophy](core-philosophy.md)

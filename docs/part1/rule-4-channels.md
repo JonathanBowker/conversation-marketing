@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: Rule #4 – Be Where the Conversation Is
 og_description: Learn how to build a modern channel strategy that meets customers where they already are — with joined-up, conversational brand experiences.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part1/rule-4-channels
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part1/rule-4-channels
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: Rule #4 – Meet Customers Where the Conversation Happens
 twitter_description: You don’t choose the channel — your customer does. Here’s how to design a presence that’s helpful, human, and harmonised.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 # Rule #4: Be Where the Conversation Is
@@ -115,8 +115,8 @@ The goal isn’t more channels — it’s *better coordination* between them.
 Go where the dialogue is happening. Be present in the moments that matter. And make sure your presence feels human, helpful, and joined-up.
 
 > “Omni-channel is not about being everywhere. It’s about being everywhere that matters.”  
-> — ***Jonny Bowker***
+> — ***[Jonny Bowker](https://www.linkedin.com/in/jbbowker/)***
 
 ---
 
-➡️ [Next: Designing Intuitive Conversation Flows](../part2/conversation-flows.md)
+[Next: Designing Intuitive Conversation Flows](../part2/conversation-flows.md)

@@ -1,14 +1,14 @@
-site_name: The Art of Conversation Marketing Handbook
+site_name: Conversation Marketing
 site_description: Brando BDV is the world’s first Brand Definition Vocabulary for structuring brand identity, tone, and integrity for the AI Web.
 site_author: Jonathan Bowker
-site_url: https://conversationmarketing.advancedanalytica.co.uk
+site_url: https://aeo.advancedanalytica.co.uk
 repo_url: https://github.com/JonathanBowker/conversation-marketing
 repo_name: JonathanBowker/conversation-marketing
 
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/images/logo.webp
+  logo: assets/logos/1x/advanced-analytica-logo.webp
   favicon: assets/images/favicon.svg
   palette:
     - scheme: default
@@ -42,16 +42,33 @@ extra:
     - bdv-terms/data
   include:
     - data/brando-schema.json
+  extra:
   meta_defaults:
-    keywords: brando, brand definition language, bdl, brand schema, ai brand safety, structured branding, LLM prompts, AI web, semantic brand metadata, tone of voice schema
-    og_title: Brando – The Brand Definition Language for the AI Web
-    og_description: Brando is a machine-readable Brand Definition Language (BDL) that protects and structures brand identity in the AI era.
-    og_url: https://brandoschema.com/bdl/
-    og_image: https://brandoschema.com/assets/images/brando-og-image.png
+    title: Conversation Marketing Handbook
+    description: Learn how marketing is evolving from monologue to dialogue. Explore how AI, real-time engagement, and Answer Engine Optimisation (AEO) are reshaping brand visibility and customer trust.
+    keywords:
+      - conversation marketing
+      - AI in marketing
+      - answer engine optimisation
+      - answer engine visibilty
+      - AEO
+      - AIV
+      - customer dialogue
+      - omnichannel marketing
+      - chatbot strategy
+      - structured brand content
+      - generative AI
+      - Brando BDV
+    author: Advanced Analytica
+    og_title: The Conversation Marketing Marketing and Answer Engine Optimisation Handbook
+    og_description: Discover why successful brands are shifting from broadcast to real-time dialogue — and how to stay visible in an AI-first, answer-driven world.
+    og_type: article
+    og_url: https://aeo.advancedanalytica.co.uk/
+    og_image: https://aeo.advancedanalytica.co.uk/assets/images/2x/conversation-marketing-handbook@2x.webp
     twitter_card: summary_large_image
-    twitter_title: Brando – Brand Definition Language (BDL)
-    twitter_description: Structure your brand identity, tone, and values for intelligent agents and LLMs with Brando BDL.
-    twitter_image: https://brandoschema.com/assets/images/brando-og-image.png
+    twitter_title: Why Conversation Marketing & AEO Are the Future
+    twitter_description: Learn how modern brands are using AI and answer engine optimisation (AEO) to build trust and drive relevance in a post-search landscape.
+    twitter_image: https://aeo.advancedanalytica.co.uk/assets/images/2x/conversation-marketing-handbook@2x.webp
   custom_cta: true
 
 extra_css:
@@ -75,7 +92,7 @@ markdown_extensions:
   - pymdownx.extra
 
 nav:
-  - Overview: index.md
+  - Homepage: index.md
   - Old vs New: old-vs-new.md
   - Why Now?: why-now.md
   - The Core Philosophy: core-philosophy.md
@@ -103,7 +120,7 @@ nav:
       - "The New ROI: Measuring What Matters": part4/new-roi.md
       - The Rule of Continuous Improvement: part4/continuous-improvement.md
       - "The Future Rules: What's Next on the Horizon": part4/future-rules.md
-
+  - Best Practice Guide: best-practice.md
   - Conclusion: conclusion.md
 
   - Appendix:

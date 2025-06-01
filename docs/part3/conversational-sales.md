@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: Conversational Sales – From Lead to Loyal Customer
 og_description: Discover how to turn chat into conversions. Use AI and live dialogue to qualify, guide, and convert leads with empathy and speed.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part3/conversational-sales
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part3/conversational-sales
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: Conversational Sales – From Lead to Loyalty
 twitter_description: Learn how real-time, personalised dialogue transforms sales journeys. AI-powered selling with a human touch.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 
@@ -128,8 +128,8 @@ Conversational sales isn’t about clever bots or chat scripts. It’s about **s
 That’s how leads become customers. And how customers become advocates.
 
 > “The best sales reps don’t sell — they help people buy.”  
-> — ***Jonnny Bowker***
+> — ***[Jonny Bowker](https://www.linkedin.com/in/jbbowker/)***
 
 ---
 
-➡️ [Next: The New ROI – Measuring What Matters](../part4/new-roi.md)
+[Next: The New ROI – Measuring What Matters](../part4/new-roi.md)

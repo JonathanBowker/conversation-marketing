@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: Advanced Analytica – Terms of Service
 og_description: Full legal terms covering fees, data protection, liability, and licensing for Advanced Analytica’s AI, compliance, and brand schema services.
 og_type: website
-og_url: https://conversationmarketing.advancedanalytica.co.uk/about
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/about
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: Terms of Service – Advanced Analytica
 twitter_description: Understand your rights and obligations when engaging Advanced Analytica for AI consulting, schema implementation, and brand governance services.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 # Advanced Analytica Terms of Service

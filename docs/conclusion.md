@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: Conversation Marketing – New Rules Recap and What to Do Next
 og_description: Get a clear summary of all the new rules and learn five actionable steps to apply them. Build responsive, relevant, and human brand conversations at scale.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/conclusion
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/conclusion
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: The New Rules Recap – Conversation Marketing in Action
 twitter_description: See what conversation marketing looks like in practice — and what to do now to make your brand more responsive and relevant.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 
@@ -113,7 +113,7 @@ It’s not about scaling messages. It’s about **scaling trust**.
 The brands that succeed in this new era won’t be the loudest. They’ll be the most responsive, the most relevant, and the most human — even when powered by machines.
 
 > “Your brand is no longer what you say it is — it’s what your conversations say it is.”  
-> — ***Jonny Bowker***
+> — ***[Jonny Bowker](https://www.linkedin.com/in/jbbowker/)***
 
 Now go and start better conversations.
 

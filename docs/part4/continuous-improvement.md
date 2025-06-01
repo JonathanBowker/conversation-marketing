@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: The Rule of Continuous Improvement – Optimising Conversation Marketing
 og_description: See why marketing conversations must evolve with your audience. Build habits of testing, listening, and improving across flows and platforms.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part4/continuous-improvement
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part4/continuous-improvement
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: Keep Improving – Optimise Every Brand Conversation
 twitter_description: Use conversation data, team insight, and real user input to evolve and refine your customer dialogue.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 
@@ -130,8 +130,8 @@ The best conversation experiences aren’t perfect — they’re *responsive*.
 Continuous improvement is what separates static automation from living, evolving brand dialogue. It’s the difference between being present — and staying relevant.
 
 > “In conversation marketing, iteration *is* the strategy.”  
-> — ***Jonny Bowker***
+> — ***[Jonny Bowker](https://www.linkedin.com/in/jbbowker/)***
 
 ---
 
-➡️ [Next: The Future Rules – What's Next on the Horizon](future-rules.md)
+[Next: The Future Rules – What's Next on the Horizon](future-rules.md)

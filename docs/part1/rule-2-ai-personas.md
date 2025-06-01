@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: Rule #2 – Know Your Audience with AI-Powered Personas
 og_description: Discover how to build responsive, data-driven customer profiles that adapt in real time. Use AI to personalise tone, timing, and messaging at scale.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part1/rule-2-ai-personas
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part1/rule-2-ai-personas
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: AI-Powered Personas – Know Your Audience in Real Time
 twitter_description: Move beyond static personas. Use live data and behavioural signals to shape how your brand engages — one conversation at a time.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 
@@ -127,4 +127,4 @@ You can’t build great conversations if you treat every customer the same. AI-p
 
 ---
 
-➡️ [Next: Rule #3 – Define Your Conversational Purpose](rule-3-purpose.md)
+[Next: Rule #3 – Define Your Conversational Purpose](rule-3-purpose.md)

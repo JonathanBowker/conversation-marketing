@@ -1,35 +1,3 @@
----
-title: The Future Rules – What’s Next on the Horizon
-description: Explore the emerging forces reshaping marketing: AI agents, autonomous personalisation, machine-to-machine dialogue, and the new rules of visibility in AI-driven ecosystems.
-keywords:
-  - future of marketing
-  - generative AI strategy
-  - AI personalisation
-  - machine-readable branding
-  - agent-to-agent communication
-  - answer engine optimisation
-  - marketing in closed ecosystems
-  - AI content discoverability
-  - brand schema strategy
-  - future marketing trends
-
-author: Advanced Analytica
-
-# Open Graph metadata
-og_title: The Future Rules – What’s Next for Conversation Marketing
-og_description: Discover how brands must evolve to stay visible, trustworthy, and structured for the AI-first world of answer engines, autonomous agents, and ethical communication.
-og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part4/future-rules
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
-
-# Twitter Card metadata
-twitter_card: summary_large_image
-twitter_title: What’s Next in Marketing? The Future Rules of AI-Driven Engagement
-twitter_description: Learn how to thrive in a world shaped by machine-to-machine communication, AI discovery engines, and autonomous personalisation.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
----
-
-
 # The Future Rules: What’s Next on the Horizon
 
 The pace of change in marketing has never been faster — and it’s not slowing down.
@@ -105,7 +73,7 @@ We’re entering a post-search era. AI engines don’t link — they *summarise*
 
 This means brands must compete for visibility in **closed systems**, not open SERPs.
 
-### Implications:
+**Implications**:
 - Content strategy shifts from SEO to **AEO (Answer Engine Optimisation)**  
 - Visibility depends on reputation, structure, and verified brand metadata  
 - Brands will need to **train** models on who they are and how they speak
@@ -125,8 +93,8 @@ To stay relevant, brands must become:
 - **Flexible enough** to adapt across channels, agents, and systems  
 
 > “In the age of AI, your brand isn’t just what you say — it’s what the machines say *about you*.”  
-> — ***Jonny Bowker***
+> — ***[Jonny Bowker](https://www.linkedin.com/in/jbbowker/)***
 
 ---
 
-➡️ [Next: Conclusion – The New Rules Recap and What to Do Now](../conclusion.md)
+[Next: Conclusion – The New Rules Recap and What to Do Now](../conclusion.md)

@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: Brand Dialogue Engineering – Guide LLMs with Structured Conversations
 og_description: Learn how to create machine-readable, brand-authentic dialogue threads that shape what AI says about you in chat-first environments.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part3/brand-dialogue-engineering
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part3/brand-dialogue-engineering
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: Brand Dialogue Engineering – New Rules for Visibility in the AI Era
 twitter_description: If you’re not writing the conversations that define your brand, LLMs will. Seed synthetic dialogues to shape your discoverability.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 # Brand Dialogue Engineering
@@ -151,4 +151,4 @@ If the web is becoming a dialogue-driven layer of intelligent agents, your brand
 
 ---
 
-➡️ [Next: Mastering Conversational Advertising](conversational-advertising.md)
+[Next: Mastering Conversational Advertising](conversational-advertising.md)

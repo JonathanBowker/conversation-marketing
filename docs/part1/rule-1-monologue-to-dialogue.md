@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: Rule #1 – From Monologue to Dialogue
 og_description: Modern marketing isn’t about speaking louder — it’s about listening better. Discover how to start real-time conversations that build trust and loyalty.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part1/rule-1-monologue-to-dialogue
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part1/rule-1-monologue-to-dialogue
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: From Monologue to Dialogue – The New Rule of Engagement
 twitter_description: It’s time to stop broadcasting and start connecting. Learn how real-time conversation turns marketing into relationship-building.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 
@@ -121,4 +121,4 @@ When you embrace dialogue, your brand becomes more than a voice — it becomes a
 
 ---
 
-➡️ [Next: Rule #2 – Know Your Audience with AI-Powered Personas](rule-2-ai-personas.md)
+[Next: Rule #2 – Know Your Audience with AI-Powered Personas](rule-2-ai-personas.md)

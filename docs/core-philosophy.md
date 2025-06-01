@@ -19,17 +19,19 @@ author: Advanced Analytica
 og_title: The Core Philosophy – The Heart of Conversation Marketing
 og_description: Explore the human-first mindset behind conversation marketing — where trust, reciprocity, and responsiveness replace campaigns and control.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/core-philosophy
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/core-philosophy
+og_image: https://aeo.advancedanalytica.co.uk/assets/images/2x/the-core-philosophy@2x.webp
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: The Core Philosophy – From Campaigns to Conversations
 twitter_description: Learn why marketing today is about showing up, listening well, and building relevance — not just reach.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/images/2x/the-core-philosophy@2x.webp
 ---
 
 # The Core Philosophy
+
+<img src="https://aeo.advancedanalytica.co.uk/assets/images/2x/the-core-philosophy@2x.webp" alt="Conversation Marketing Handbook Cover" style="width: 100%; max-width: 1000px; display: block; margin: 2rem auto;" />
 
 At the heart of conversation marketing lies a simple truth:
 
@@ -106,4 +108,4 @@ Conversation is no longer a tactic. It’s your **marketing operating system**.
 
 ---
 
-➡️ [Next: Rule #1 – From Monologue to Dialogue](part1/rule-1-monologue-to-dialogue.md)
+[Next: Rule #1 – From Monologue to Dialogue](part1/rule-1-monologue-to-dialogue.md)

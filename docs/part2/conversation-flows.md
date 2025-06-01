@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: Designing Intuitive Conversation Flows – Conversation Marketing UX
 og_description: Discover how to structure chat and voice experiences that feel natural. Map user journeys, avoid friction, and build flows that guide without pushing.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part2/conversation-flows
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part2/conversation-flows
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: Build Better Chat Flows – Intuitive Design for Conversational UX
 twitter_description: Explore best practices, tools, and real-world examples for creating conversation flows that feel helpful — not robotic.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 
@@ -154,4 +154,4 @@ Your conversation flow *is* the experience. It’s not a script — it’s a **j
 
 ---
 
-➡️ [Next: Fueling Your Engine – Content for Conversation](content-for-conversation.md)
+[Next: Fueling Your Engine – Content for Conversation](content-for-conversation.md)

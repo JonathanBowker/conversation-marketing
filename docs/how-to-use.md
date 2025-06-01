@@ -19,17 +19,19 @@ author: Advanced Analytica
 og_title: How to Use This Handbook – The New Rules of Conversation Marketing
 og_description: Explore how to get the most from this strategic and practical handbook — with sections for strategy, design, growth, and future readiness in conversation marketing.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/how-to-use
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/how-to-use
+og_image: https://aeo.advancedanalytica.co.uk/assets/images/2x/how-to-use-this-handbook@2x.webp
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: How to Use This Handbook – A Guide to Conversation Marketing
 twitter_description: Discover how to read and apply the New Rules — across teams, roles, and customer touchpoints.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/images/2x/how-to-use-this-handbook@2x.webp
 ---
 
 # How to Use This Handbook
+
+<img src="https://aeo.advancedanalytica.co.uk/assets/images/2x/how-to-use-this-handbook@2x.webp" alt="Conversation Marketing Handbook Cover" style="width: 100%; max-width: 1000px; display: block; margin: 2rem auto;" />
 
 This handbook is designed to be both **strategic and practical** — a guide you can read end-to-end or dip into as needed. Whether you're shaping your brand strategy, selecting tools, designing chatbot flows, or refining your measurement approach, this resource is built to meet you where you are.
 
@@ -92,4 +94,4 @@ The landscape is shifting fast. AI capabilities are evolving monthly. This handb
 
 ---
 
-➡️ [Next: Rule #1 – From Monologue to Dialogue](part1/rule-1-monologue-to-dialogue.md)
+[Next: Rule #1 – From Monologue to Dialogue](part1/rule-1-monologue-to-dialogue.md)

@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: Rule #3 – Define Your Conversational Purpose
 og_description: Great conversations start with clear goals. Discover how to map user intent to business outcomes, set tone, and shape flows that convert or support.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part1/rule-3-purpose
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part1/rule-3-purpose
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: Rule #3 – What's the Purpose of Your Brand Conversations?
 twitter_description: Every conversation should have a reason to exist. Here's how to align user needs, business goals, and tone — before you write a single word.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 # Rule #3: Define Your Conversational Purpose
@@ -116,4 +116,4 @@ Every conversation should have a reason to exist — and a reason to continue. P
 
 ---
 
-➡️ [Next: Rule #4 – Be Where the Conversation Is](rule-4-channels.md)
+[Next: Rule #4 – Be Where the Conversation Is](rule-4-channels.md)

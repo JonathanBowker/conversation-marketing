@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: The New ROI – Measuring What Matters in Conversation Marketing
 og_description: Move beyond vanity metrics. Learn how to track the value of real-time conversations using customer-centric, business-relevant KPIs.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part4/new-roi
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part4/new-roi
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: The New ROI – Measure What Matters in Brand Conversations
 twitter_description: Discover why response time, relevance, and customer trust are the new north stars in marketing measurement.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 # The New ROI: Measuring What Matters
@@ -146,8 +146,8 @@ Turn every data point into a design decision.
 The new ROI isn’t about how loud your marketing is — it’s about how *useful*, *human*, and *effective* your conversations are. It’s about measuring relationships, not reach.
 
 > “Don’t just count interactions — measure their impact.”  
-> — ***Jonny Bowker***
+> — ***[Jonny Bowker](https://www.linkedin.com/in/jbbowker/)***
 
 ---
 
-➡️ [Next: The Rule of Continuous Improvement](continuous-improvement.md)
+[Next: The Rule of Continuous Improvement](continuous-improvement.md)

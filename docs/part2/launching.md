@@ -1,5 +1,5 @@
 ---
-title: Launching Your Conversational Engine – From Plan to Performance
+title: Launching Your Conversation Engine – From Plan to Performance
 description: A practical guide to launching your conversation marketing system — from setting KPIs and training teams to promoting entry points and optimising early flows.
 keywords:
   - conversation marketing launch
@@ -19,17 +19,17 @@ author: Advanced Analytica
 og_title: Launching Your Conversational Engine – A Modern Go-Live Guide
 og_description: Learn how to deploy your conversation strategy successfully. Train teams, set KPIs, promote channels, and monitor real-time feedback from day one.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part2/launching
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part2/launching
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: How to Launch Your Conversational Engine
 twitter_description: From human training to chat visibility, learn what it takes to launch a responsive, data-driven conversation marketing system.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
-# Launching Your Conversational Engine
+# Launching Your Conversation Engine
 
 You’ve got the strategy, the flows, the content, and the tech stack — now it’s time to go live.
 
@@ -117,7 +117,7 @@ You won’t get everything perfect on day one — and that’s okay.
 
 ## Real-World Example: ASOS Customer Assistant
 
-> 🟣 *ASOS* rolled out a customer support chatbot to manage high-volume queries. But its real strength was in iteration — within the first 90 days, they’d added 500+ new queries, shortened wait times, and integrated product discovery into the flow.
+> ***ASOS*** rolled out a customer support chatbot to manage high-volume queries. But its real strength was in iteration — within the first 90 days, they’d added 500+ new queries, shortened wait times, and integrated product discovery into the flow.
 
 They didn’t launch a perfect bot. They launched a *learning* one.
 
@@ -144,8 +144,8 @@ Launching your conversational engine is a milestone — but it’s not the finis
 It’s the beginning of a new kind of relationship: one where your brand doesn’t just speak, but listens, adapts, and evolves — every day.
 
 > “If you're not learning from your conversations, you're not really having any.”  
-> — ***Jonny Bowker***
+> — ***[Jonny Bowker](https://www.linkedin.com/in/jbbowker/)***
 
 ---
 
-➡️ [Next: The Proactive Play – Initiating a Valuable Dialogue](../part3/proactive-dialogue.md)
+[Next: The Proactive Play – Initiating a Valuable Dialogue](../part3/proactive-dialogue.md)

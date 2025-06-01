@@ -19,14 +19,14 @@ author: Advanced Analytica
 og_title: The Tech Stack – Tools That Power Conversation Marketing
 og_description: Learn how to build and integrate the right tools for personalised, scalable, AI-powered conversations — across every touchpoint and channel.
 og_type: article
-og_url: https://conversationmarketing.advancedanalytica.co.uk/part2/tech-stack
-og_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+og_url: https://aeo.advancedanalytica.co.uk/part2/tech-stack
+og_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 
 # Twitter Card metadata
 twitter_card: summary_large_image
 twitter_title: The Conversation Marketing Stack – Tools That Connect and Scale
 twitter_description: Discover the core systems and layers behind real-time engagement — from messaging platforms and CRMs to orchestration and AI.
-twitter_image: https://conversationmarketing.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
+twitter_image: https://aeo.advancedanalytica.co.uk/assets/logos/0.5x/Brando_9@0.5x.png
 ---
 
 
@@ -151,8 +151,8 @@ Look for platforms with:
 Tech won’t replace strategy — but without the right stack, strategy stays stuck in slides. The modern marketer’s edge comes from aligning tools with intent, data with dialogue, and content with context.
 
 > “The best tech stack isn’t the biggest — it’s the one that works together.”  
-> — ***Jonny Bowker***
+> — ***[Jonny Bowker](https://www.linkedin.com/in/jbbowker/)***
 
 ---
 
-➡️ [Next: Launching Your Conversational Engine](launching.md)
+[Next: Launching Your Conversational Engine](launching.md)
