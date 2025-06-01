@@ -7,6 +7,7 @@
 ## AI Observatory Report: Brand & Product Visibility
 
 **Audit Date:** 2025-06-01
+
 **Provider/LLM Model(s):** OpenAI GPT-4o, Google Gemini 1.5 Pro, Perplexity Llama-3
 
 ---
